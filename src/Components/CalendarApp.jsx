@@ -1,22 +1,35 @@
 import './CalendarApp.css'
 import { useState } from 'react'
 
+import jan from '../Assets/jan.jpg'
+import feb from '../Assets/feb.jpg'
+import march from '../Assets/march.jpg'
+import april from '../Assets/april.jpg'
+import may from '../Assets/may.jpg'
+import june from '../Assets/june.jpg'
+import july from '../Assets/july.jpg'
+import august from '../Assets/august.jpg'
+import september from '../Assets/september.jpg'
+import october from '../Assets/october.jpg'
+import november from '../Assets/november.jpg'
+import december from '../Assets/december.jpg'
+
 
 const CalendarApp = () => {
 
   const monthImages = {
-  January: "/Images/jan.jpg",
-  February: "/Images/feb.jpg",
-  March: "/Images/march.jpg",
-  April: "/Images/april.jpg",
-  May: "/Images/may.jpg",
-  June: "/Images/june.jpg",
-  July: "/Images/july.jpg",
-  August: "/Images/august.jpg",
-  September: "/Images/september.jpg",
-  October: "/Images/october.jpg",
-  November: "/Images/november.jpg",
-  December: "/Images/december.jpg",
+  January: jan,
+  February: feb,
+  March: march,
+  April: april,
+  May: may,
+  June: june,
+  July: july,
+  August: august,
+  September: september,
+  October: october,
+  November: november,
+  December: december,
   }
 
   const daysOfWeek =['Sun','Mon','Tue', 'Wed', 'Thu', 'Fri', 'Sat']
